@@ -21,7 +21,8 @@ Console.WriteLine("Zb: ");
 double zb = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"({xb},{yb},{zb})");
 
-double ab = Math.Round(Math.Sqrt((Math.Pow((xb - xa), 2) + Math.Pow((yb - ya), 2)) + Math.Pow((zb - za), 2)),2);
+double ab = Math.Round(Math.Sqrt((Math.Pow((xb - xa), 2) +
+            + Math.Pow((yb - ya), 2)) + Math.Pow((zb - za), 2)), 2);
 Console.WriteLine($"Расстояние между точками в пространстве: {ab}");
 
 
